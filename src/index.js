@@ -30,7 +30,7 @@ const getXHRParams = (params) => {
   }
 }
 
-export default function qwest (method, url, params, headers, props) {
+export default function ({method, url, params, headers, props}) {
   return new Promise((resolve, reject) => {
     const xhr = getXHR(method, url)
     if (xhr === null) throw new Error('CORS not supported')
