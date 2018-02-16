@@ -1,12 +1,12 @@
-# qwest
+# re-qwest
 Promise-ifies XMLHttpRequest/XDomainRequest whilst using CORS.
 
 # Usage
 ```
-import Qwest from 'qwest'
+import reqwest from 're-qwest'
 
 // Make a request
-Qwest({
+reqwest({
   method: 'GET',
   url: 'https://exampleurl.com/api/v1/example/1',
 }).then((response) => {
@@ -18,7 +18,7 @@ Qwest({
 ```
 
 # Paramaters
-The `Qwest` function takes an object with the following properties:
+The reqwest function takes an object with the following properties:
 ```
 {
   method: The `HTTP` method to use (string),
