@@ -1,9 +1,9 @@
 {
-  "name": "qwest",
+  "name": "re-qwest",
   "version": "1.0.0",
   "description": "Promisified XMLHttpRequest and XDomainRequest with CORS",
   "main": "dist/index.js",
-  "repository": "https://github.com/spbarker/qwest.git",
+  "repository": "https://github.com/spbarker/re-qwest.git",
   "author": "Samuel Barker <spbarker1994@gmail.com>",
   "license": "MIT",
   "scripts": {
