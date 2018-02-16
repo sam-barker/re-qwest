@@ -11,7 +11,7 @@ module.exports = {
 
   output: {
     path: paths.DIST,
-    filename: 'bundle.js'
+    filename: 'index.js'
   },
 
   module: {
